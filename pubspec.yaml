@@ -1,0 +1,19 @@
+name: music_vault
+description: A premium offline local music player vault.
+version: 1.0.0+1
+
+environment:
+  sdk: '>=3.0.0 <4.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+  cupertino_icons: ^1.0.5
+  just_audio: ^0.9.36
+  file_picker: ^8.0.0
+  path_provider: ^2.1.1
+  shared_preferences: ^2.2.2
+  audio_video_progress_bar: ^2.0.3
+
+flutter:
+  uses-material-design: true
